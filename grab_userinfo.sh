@@ -7,10 +7,8 @@ green='\033[0;32m'
 blue='\033[0;34m'
 NC='\033[0m' # No Color
 
-echo "Waar wil je het bestand opslaan"
+SAVE_DIR=$1
 
-
-read SAVE_DIR
 echo "Script wordt uitgevoerd...."
 sort -t " " -k 1 $USER_DIR | sort -t " " -k 1 | cut -d: -f 1,7  > $SAVE_DIR/.usershells.txt
 
