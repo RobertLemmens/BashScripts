@@ -27,7 +27,7 @@ echo "2) Configure paths"
 echo "3) Cleanup"
 echo "4) exit"
 echo ""
-echo -e "${yellow}note: please configure paths, default paths are current directory.${white}"
+echo -e "${yellow}note: please configure paths.${white}"
 echo ""
 printf "> "
 read USER_CHOICE
