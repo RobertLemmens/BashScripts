@@ -7,7 +7,14 @@ MEM_DIR=/proc/meminfo
 UPTIME_DIR=/proc/uptime
 VERS_DIR=/proc/version
 
-ARRAY=($INTER_DIR $DMA_DIR $IOP_DIR $MEM_DIR $UPTIME_DIR $VERS_DIR)
+ARRAY=(
+	$INTER_DIR 
+	$DMA_DIR
+	$IOP_DIR
+	$MEM_DIR
+	$UPTIME_DIR 
+	$VERS_DIR
+)
 
 
 
