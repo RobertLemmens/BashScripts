@@ -8,19 +8,15 @@ UPTIME_DIR=/proc/uptime
 VERS_DIR=/proc/version
 
 ARRAY=(
-	$INTER_DIR 
+	$INTER_DIR
 	$DMA_DIR
 	$IOP_DIR
 	$MEM_DIR
-	$UPTIME_DIR 
+	$UPTIME_DIR
 	$VERS_DIR
 )
 
-
-
-echo "Waar wil je het bestand opslaan?"
-
-read SAVE_DIR
+SAVE_DIR=$1
 
 echo "Script wordt uitgevoerd..."
 
