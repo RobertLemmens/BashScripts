@@ -24,15 +24,15 @@ read SAVE_DIR
 
 echo "Script wordt uitgevoerd..."
 
-touch $SAVE_DIR/sysinfo.txt
+touch $SAVE_DIR/.sysinfo.txt
 
 for i in 1 2 3 4 5 6
 do
-  echo "" >> $SAVE_DIR/sysinfo.txt
-  echo "-------------------------" >> $SAVE_DIR/sysinfo.txt
-  echo ${ARRAY[$i-1]} " OUTPUT: " >> $SAVE_DIR/sysinfo.txt
-  echo "-------------------------" >> $SAVE_DIR/sysinfo.txt
-  cat ${ARRAY[$i-1]} >> $SAVE_DIR/sysinfo.txt
+  echo "" >> $SAVE_DIR/.sysinfo.txt
+  echo "-------------------------" >> $SAVE_DIR/.sysinfo.txt
+  echo ${ARRAY[$i-1]} " OUTPUT: " >> $SAVE_DIR/.sysinfo.txt
+  echo "-------------------------" >> $SAVE_DIR/.sysinfo.txt
+  cat ${ARRAY[$i-1]} >> $SAVE_DIR/.sysinfo.txt
 done
 
 echo "done"
