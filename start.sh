@@ -8,6 +8,7 @@ yellow='\033[1;33m'
 NC='\033[0m' # No Color
 
 SAVE_DIR=/home
+TAR_DIR=/
 LOOP_VAR=true
 
 banner(){
@@ -37,8 +38,9 @@ if [ "$USER_CHOICE" = "1" ]; then
   banner
   echo -e "${yellow}Collector view${white}"
   echo "Starting collector..."
-  sh grab_userinfo.sh $SAVE_DIR
-  sh grab_sysinfo.sh $SAVE_DIR
+  bash grab_userinfo.sh $SAVE_DIR
+  bash grab_sysinfo.sh $SAVE_DIR
+  bash grab_logfiles.sh $SAVE_DIR $TAR_DIR
   echo "press enter to go back to the main menu"
   read HALT
 elif [ "$USER_CHOICE" = "2" ]; then
@@ -47,6 +49,9 @@ elif [ "$USER_CHOICE" = "2" ]; then
   echo -e "${yellow}Configuring paths${white}"
   echo "Enter save path:"
   read SAVE_DIR
+  printf "> "
+  echo "Enter tar path:"
+  read TAR_DIR
   printf "> "
 elif [ "$USER_CHOICE" = "3" ]; then
   echo "Cleaning up your mess"
