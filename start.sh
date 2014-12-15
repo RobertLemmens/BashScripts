@@ -11,6 +11,14 @@ SAVE_DIR=/home
 TAR_DIR=/
 LOOP_VAR=true
 
+ROOT_UID=0
+E_NOTROOT=87
+
+if [ "$UID" -ne "$ROOT_UID" ]; then
+  echo "Run this script as root"
+  exit $E_NOTROOT
+fi
+
 banner(){
   echo -e "${red} ____           _   _   _   _                           _            "
   echo "|  _ \__      _| \ | | | | | | __ _ _ ____   _____  ___| |_ ___ _ __ "
