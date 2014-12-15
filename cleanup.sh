@@ -3,6 +3,8 @@
 
 LOG_DIR=/var/log
 
+# pas deze array aan met je output files voor correcte cleanup
+# increment voor nu ook de for loop iets naar onder met 1
 ARRAY=(.usershell.txt .sysinfo.txt)
 
 
@@ -13,6 +15,7 @@ read SAVED_DIR
 # maak een archive
 if cd $SAVED_DIR; then
   mkdir .bingo
+  # increment deze for loop voor elke output item
   for i in 1 2
   do
       mv ${ARRAY[$i-1]} .bingo
