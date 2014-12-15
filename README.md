@@ -9,3 +9,8 @@ Cleanup.sh zal ik bijhouden. Ik ben nog bezig met een algoritme om de cleanup zo
 Zorg dat je script een argument $1 meenemen, sla die op in een variable SAVE\_DIR en zorg dat de output van je script in $SAVE\_DIR\\.jouwfile terecht komt.
 
 alle grab scripts in de map scripts a.u.b.
+
+## TODO
+1. File formatting
+2. Alternate transfer modes
+3. Scripts error checking & root force
