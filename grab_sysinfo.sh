@@ -15,7 +15,7 @@ ARRAY=(
 	$UPTIME_DIR
 	$VERS_DIR
 )
-
+green='\033[0;32m'
 SAVE_DIR=$1
 
 echo "Script wordt uitgevoerd..."
@@ -30,7 +30,11 @@ do
   echo "-------------------------" >> $SAVE_DIR/.sysinfo.txt
   cat ${ARRAY[$i-1]} >> $SAVE_DIR/.sysinfo.txt
 done
-
-echo "done"
+if [ "$?" = "0" ]; then
+  echo -e "${green}Succesvol uitgevoerd${NC}"
+else
+  echo -e "${red}Script mislukt${NC}"
+  exit 1
+fi
 
 exit
