@@ -14,11 +14,15 @@ red='\033[0;31m'
 green='\033[0;32m'
 blue='\033[0;34m'
 NC='\033[0m' # No Color
-
+SAVED_DIR=$1
 echo -e "${red}Zorg dat SSH op host aan staat voor SCP!!!${NC}"
-
-echo "waar staan de gemaakte bestanden?"
-read SAVED_DIR
+echo "Doorgaan? (y/n)"
+read USER_IN
+if [ "$USER_IN" = "y" ]; then
+  echo "Archive wordt aangemaakt"
+else
+  exit 0
+fi
 
 # maak een archive
 if cd $SAVED_DIR; then
