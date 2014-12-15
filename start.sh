@@ -33,6 +33,8 @@ if [ "$USER_CHOICE" = "1" ]; then
   banner
   echo -e "${yellow}Collector view${white}"
   echo "Starting collector..."
+  sh grab_userinfo.sh
+  sh grab_sysinfo.sh
 elif [ "$USER_CHOICE" = "2" ]; then
   clear
   banner
