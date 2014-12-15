@@ -51,11 +51,11 @@ if [ "$USER_CHOICE" = "1" ]; then
   echo "3) Grab logfiles"
   read USER_IN2
   if [ "$USER_IN2" = "1" ]; then
-    bash grab_userinfo.sh $SAVE_DIR
+    bash scripts/grab_userinfo.sh $SAVE_DIR
   elif [ "$USER_IN2" = "2" ]; then
-    bash grab_sysinfo.sh $SAVE_DIR
+    bash scripts/grab_sysinfo.sh $SAVE_DIR
   elif [ "$USER_IN2" = "3" ]; then
-    bash grab_logfiles.sh $SAVE_DIR $TAR_DIR/logs.tar
+    bash scripts/grab_logfiles.sh $SAVE_DIR $TAR_DIR/logs.tar
   fi
   echo "press enter to go back to the main menu"
   read HALT
