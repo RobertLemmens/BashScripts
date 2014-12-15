@@ -1,0 +1,753 @@
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    1
+Core(s) per socket:    4
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 60
+Stepping:              3
+CPU MHz:               3399.806
+BogoMIPS:              6799.61
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              6144K
+NUMA node0 CPU(s):     0-3
+top - 17:43:34 up  4:58,  4 users,  load average: 1,70, 1,62, 1,56
+Tasks: 238 total,   1 running, 226 sleeping,   3 stopped,   8 zombie
+%Cpu(s):  4,4 us,  3,5 sy,  0,0 ni, 92,0 id,  0,1 wa,  0,0 hi,  0,0 si,  0,0 st
+KiB Mem:   8119840 total,  7431660 used,   688180 free,   315724 buffers
+KiB Swap:  3962876 total,        0 used,  3962876 free.  3758104 cached Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+19074 root      20   0   13484   2572   1288 S  39,3  0,0  24:07.85 bash
+ 1508 root      20   0  660752 260388 198028 S   6,6  3,2  12:17.31 Xorg
+ 2770 prestin   20   0 1532192 219564  61936 S   6,6  2,7   2:09.37 chrome
+    1 root      20   0   33780   3152   1496 S   0,0  0,0   0:00.68 init
+    2 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S   0,0  0,0   0:00.01 ksoftirqd/0
+    5 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kworker/0:0H
+    6 root      20   0       0      0      0 S   0,0  0,0   0:00.36 kworker/u8:0
+    7 root      20   0       0      0      0 S   0,0  0,0   0:06.96 rcu_sched
+    8 root      20   0       0      0      0 S   0,0  0,0   0:08.70 rcuos/0
+    9 root      20   0       0      0      0 S   0,0  0,0   0:08.92 rcuos/1
+   10 root      20   0       0      0      0 S   0,0  0,0   0:09.44 rcuos/2
+   11 root      20   0       0      0      0 S   0,0  0,0   0:08.65 rcuos/3
+   12 root      20   0       0      0      0 S   0,0  0,0   0:00.00 rcu_bh
+   13 root      20   0       0      0      0 S   0,0  0,0   0:00.00 rcuob/0
+   14 root      20   0       0      0      0 S   0,0  0,0   0:00.00 rcuob/1
+   15 root      20   0       0      0      0 S   0,0  0,0   0:00.00 rcuob/2
+   16 root      20   0       0      0      0 S   0,0  0,0   0:00.00 rcuob/3
+   17 root      rt   0       0      0      0 S   0,0  0,0   0:04.56 migration/0
+   18 root      rt   0       0      0      0 S   0,0  0,0   0:00.03 watchdog/0
+   19 root      rt   0       0      0      0 S   0,0  0,0   0:00.08 watchdog/1
+   20 root      rt   0       0      0      0 S   0,0  0,0   0:04.41 migration/1
+   21 root      20   0       0      0      0 S   0,0  0,0   0:00.01 ksoftirqd/1
+   22 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kworker/1:0
+   23 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kworker/1:0H
+   24 root      rt   0       0      0      0 S   0,0  0,0   0:00.02 watchdog/2
+   25 root      rt   0       0      0      0 S   0,0  0,0   0:02.67 migration/2
+   26 root      20   0       0      0      0 S   0,0  0,0   0:00.01 ksoftirqd/2
+   27 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kworker/2:0
+   28 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kworker/2:0H
+   29 root      rt   0       0      0      0 S   0,0  0,0   0:00.03 watchdog/3
+   30 root      rt   0       0      0      0 S   0,0  0,0   0:02.87 migration/3
+   31 root      20   0       0      0      0 S   0,0  0,0   0:00.00 ksoftirqd/3
+   32 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kworker/3:0
+   33 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kworker/3:0H
+   34 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 khelper
+   35 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kdevtmpfs
+   36 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 netns
+   37 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 writeback
+   38 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kintegrityd
+   39 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 bioset
+   40 root       0 -20       0      0      0 S   0,0  0,0   0:00.11 kworker/u9:0
+   41 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kblockd
+   42 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 ata_sff
+   43 root      20   0       0      0      0 S   0,0  0,0   0:00.00 khubd
+   44 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 md
+   45 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 devfreq_wq
+   46 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kworker/0:1
+   48 root      20   0       0      0      0 S   0,0  0,0   0:00.00 khungtaskd
+   49 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kswapd0
+   50 root      25   5       0      0      0 S   0,0  0,0   0:00.00 ksmd
+   51 root      39  19       0      0      0 S   0,0  0,0   0:00.45 khugepaged
+   52 root      20   0       0      0      0 S   0,0  0,0   0:00.00 fsnotify_mark
+   53 root      20   0       0      0      0 S   0,0  0,0   0:00.00 ecryptfs-kthrea
+   54 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 crypto
+   66 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kthrotld
+   67 root      20   0       0      0      0 S   0,0  0,0   0:00.27 kworker/u8:1
+   68 root      20   0       0      0      0 S   0,0  0,0   0:00.54 kworker/1:1
+   87 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 deferwq
+   88 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 charger_manager
+   99 root      20   0       0      0      0 S   0,0  0,0   0:00.12 kworker/2:1
+  136 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kpsmoused
+  162 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_0
+  163 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_1
+  164 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_2
+  165 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_3
+  166 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_4
+  167 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_5
+  174 root      20   0       0      0      0 S   0,0  0,0   0:00.24 kworker/0:3
+  176 root      20   0       0      0      0 S   0,0  0,0   0:00.43 kworker/3:1
+  249 root      20   0       0      0      0 S   0,0  0,0   0:00.49 jbd2/sdb1-8
+  250 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 ext4-rsv-conver
+  378 root      20   0   19476    648    452 S   0,0  0,0   0:00.05 upstart-udev-br
+  383 root      20   0   51768   1992   1036 S   0,0  0,0   0:00.09 systemd-udevd
+  437 root     -51   0       0      0      0 S   0,0  0,0   0:00.00 irq/43-mei_me
+  490 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 hd-audio0
+  513 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kvm-irqfd-clean
+  522 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 hd-audio1
+  540 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kmpathd
+  541 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kmpath_handlerd
+  786 root      20   0   15524    884    440 S   0,0  0,0   0:00.01 upstart-socket-
+  818 root      20   0  272704   7848   5984 S   0,0  0,1   0:00.15 smbd
+  856 message+  20   0   40120   2376    996 S   0,0  0,0   0:00.12 dbus-daemon
+  917 root      20   0  330236   4420   3264 S   0,0  0,1   0:00.00 ModemManager
+  927 root      20   0   19292   1724   1444 S   0,0  0,0   0:00.00 bluetoothd
+  956 root      20   0  272704   3484   1620 S   0,0  0,0   0:00.01 smbd
+  971 root      20   0   43452   1912   1528 S   0,0  0,0   0:00.00 systemd-logind
+  977 syslog    20   0  255844   1328    808 S   0,0  0,0   0:00.05 rsyslogd
+  986 root      20   0  340684   6140   4672 S   0,0  0,1   0:00.13 NetworkManager
+  995 root      20   0  284040   5228   3144 S   0,0  0,1   0:00.10 polkitd
+  999 root      10 -10       0      0      0 S   0,0  0,0   0:00.00 krfcommd
+ 1004 root      20   0   74724   3824   2720 S   0,0  0,0   0:00.01 cupsd
+ 1026 avahi     20   0   32352   1764   1456 S   0,0  0,0   0:00.02 avahi-daemon
+ 1029 avahi     20   0   32224    468    216 S   0,0  0,0   0:00.00 avahi-daemon
+ 1042 root      20   0   73220   3308   2420 S   0,0  0,0   0:00.00 cups-browsed
+ 1056 root      20   0   15672    992    404 S   0,0  0,0   0:00.00 upstart-file-br
+ 1228 root      20   0   15824    964    804 S   0,0  0,0   0:00.00 getty
+ 1230 root      20   0   15824    956    804 S   0,0  0,0   0:00.00 getty
+ 1235 root      20   0   15824    956    804 S   0,0  0,0   0:00.00 getty
+ 1237 root      20   0   15824    964    804 S   0,0  0,0   0:00.00 getty
+ 1243 root      20   0 2102628   4124   2996 S   0,0  0,1   0:00.01 console-kit-dae
+ 1244 root      20   0   15824    952    804 S   0,0  0,0   0:00.00 getty
+ 1346 root      20   0   23656   1048    796 S   0,0  0,0   0:00.00 cron
+ 1364 root      20   0  132776   4132   3144 S   0,0  0,1   0:00.00 mdm
+ 1384 root      20   0  125444  16104   4556 S   0,0  0,2   0:06.10 teamviewerd
+ 1400 root      20   0   19188    740    512 S   0,0  0,0   0:00.35 irqbalance
+ 1474 root      20   0  190952   4440   2944 S   0,0  0,1   0:00.05 mdm
+ 1514 postgres  20   0  247724  16192  14812 S   0,0  0,2   0:00.08 postgres
+ 1516 postgres  20   0  247724   1880    452 S   0,0  0,0   0:00.00 postgres
+ 1517 postgres  20   0  247724   2680   1252 S   0,0  0,0   0:00.06 postgres
+ 1518 postgres  20   0  247724   1668    288 S   0,0  0,0   0:00.05 postgres
+ 1519 postgres  20   0  248584   3012   1004 S   0,0  0,0   0:00.04 postgres
+ 1520 postgres  20   0  103400   1780    348 S   0,0  0,0   0:00.09 postgres
+ 1523 root      20   0       0      0      0 S   0,0  0,0   0:00.00 firegl
+ 1524 root      20   0       0      0      0 S   0,0  0,0   0:00.00 firegl
+ 1525 root      20   0       0      0      0 S   0,0  0,0   0:00.00 firegl
+ 1527 root      20   0    4368    700    528 S   0,0  0,0   0:00.80 acpid
+ 1530 nobody    20   0   31032   1536   1288 S   0,0  0,0   0:00.18 dnsmasq
+ 1649 root      20   0  191448   2824   1516 S   0,0  0,0   0:00.10 nmbd
+ 1667 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kauditd
+ 1675 prestin   20   0  550016  18008  11308 S   0,0  0,2   0:00.21 cinnamon-sessio
+ 1823 prestin   20   0   10616    316      0 S   0,0  0,0   0:00.01 ssh-agent
+ 1826 prestin   20   0   24440    592    336 S   0,0  0,0   0:00.00 dbus-launch
+ 1827 prestin   20   0   39892   1968    836 S   0,0  0,0   0:00.23 dbus-daemon
+ 1975 prestin   20   0  337508   5292   2696 S   0,0  0,1   0:00.00 at-spi-bus-laun
+ 1980 prestin   20   0   39244   1940   1488 S   0,0  0,0   0:00.05 dbus-daemon
+ 1983 prestin   20   0  124912   3320   2752 S   0,0  0,0   0:00.26 at-spi2-registr
+ 2004 prestin   20   0  907108  20860  14500 S   0,0  0,3   0:02.18 cinnamon-settin
+ 2006 prestin   20   0  368544   7384   3404 S   0,0  0,1   0:00.03 gnome-keyring-d
+ 2017 prestin    9 -11  509400   8200   5476 S   0,0  0,1   2:44.56 pulseaudio
+ 2019 rtkit     21   1  168916   1304   1088 S   0,0  0,0   0:00.08 rtkit-daemon
+ 2023 root      20   0  239412   4592   3572 S   0,0  0,1   0:00.03 upowerd
+ 2104 prestin   20   0  192576   3216   2556 S   0,0  0,0   0:00.06 gvfsd
+ 2117 prestin   20   0  419556   3400   2732 S   0,0  0,0   0:00.11 gvfsd-fuse
+ 2295 root      20   0  263240   2772    204 S   0,0  0,0   0:00.00 vmware-vmblock-
+ 2307 root      20   0    6976    576    368 S   0,0  0,0   0:00.00 vmnet-bridge
+ 2322 prestin   20   0  294664   5280   3484 S   0,0  0,1   0:00.06 gvfs-udisks2-vo
+ 2325 root      20   0  371592   7668   3524 S   0,0  0,1   0:02.90 udisksd
+ 2336 prestin   20   0  208388   3492   2668 S   0,0  0,0   0:00.00 gvfs-gphoto2-vo
+ 2340 prestin   20   0  281768   3364   2704 S   0,0  0,0   0:00.00 gvfs-afc-volume
+ 2345 prestin   20   0  200748   3508   2796 S   0,0  0,0   0:00.00 gvfs-mtp-volume
+ 2348 prestin   20   0  239352  17936   9104 S   0,0  0,2   0:00.04 cinnamon-launch
+ 2350 colord    20   0  301516   7840   4360 S   0,0  0,1   0:00.05 colord
+ 2357 prestin   20   0 1826496 266332  95608 S   0,0  3,3   3:56.81 cinnamon
+ 2359 prestin   20   0  386960   5152   3884 S   0,0  0,1   0:00.00 csd-printer
+ 2364 root      20   0    6948    188      0 S   0,0  0,0   0:00.00 vmnet-netifup
+ 2373 root      20   0   19280   5636      0 S   0,0  0,1   0:00.01 vmnet-dhcpd
+ 2376 root      20   0   11768   1180   1016 S   0,0  0,0   0:00.01 vmnet-natd
+ 2378 root      20   0    6948    188      0 S   0,0  0,0   0:00.00 vmnet-netifup
+ 2386 root      20   0   19280   5832    192 S   0,0  0,1   0:00.01 vmnet-dhcpd
+ 2416 kernoops  20   0   37144   1012    696 S   0,0  0,0   0:00.06 kerneloops
+ 2418 root      20   0   30236    616    196 S   0,0  0,0   0:00.29 vmware-authdlau
+ 2438 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 iprt
+ 2458 prestin   20   0  456100  19292  11780 S   0,0  0,2   0:00.40 polkit-gnome-au
+ 2467 prestin   20   0 1300492  88036  25760 S   0,0  1,1   1:06.60 nemo
+ 2468 prestin   20   0  692040  17664  12312 S   0,0  0,2   0:00.11 nm-applet
+ 2469 prestin   20   0  633996  30680  23516 S   0,0  0,4   0:00.36 synergy
+ 2471 prestin   20   0  794464  35684  27160 S   0,0  0,4   0:01.35 owncloud
+ 2472 prestin   20   0 2313208 124528  29432 S   0,0  1,5   0:48.16 dropbox
+ 2481 prestin   20   0  178304   2772   2176 S   0,0  0,0   0:00.13 dconf-service
+ 2506 prestin   20   0   53180   2888   2092 S   0,0  0,0   0:00.01 gconfd-2
+ 2533 root      20   0   30576   1744   1384 S   0,0  0,0   0:00.33 vmware-usbarbit
+ 2565 prestin   20   0  365356   6004   3488 S   0,0  0,1   0:00.93 gvfsd-trash
+ 2589 root      20   0   15824    968    804 S   0,0  0,0   0:00.00 getty
+ 2635 prestin   20   0  120712   3404   2304 S   0,0  0,0   0:00.12 gvfsd-metadata
+ 2642 root      20   0  287576   6432   3272 S   0,0  0,1   0:00.17 accounts-daemon
+ 2652 prestin   20   0 1196908 122344  67536 S   0,0  1,5   0:57.85 cairo-dock
+ 2662 prestin   20   0   70780   9848   3912 S   0,0  0,1   0:00.01 python
+ 2669 prestin   20   0  431224   3868   3052 S   0,0  0,0   0:00.01 gvfsd-computer
+ 2703 prestin   20   0  212468   5856   4296 S   0,0  0,1   1:34.45 synergys
+ 2738 root      20   0  202200   4020   3124 S   0,0  0,0   0:00.25 udisks-daemon
+ 2739 root      20   0   54332    844    444 S   0,0  0,0   0:00.00 udisks-daemon
+ 2741 prestin   20   0   24244   4876   2340 S   0,0  0,1   0:00.00 mintupdate-laun
+ 2744 prestin   20   0    4444    648    548 S   0,0  0,0   0:00.00 sh
+ 2745 prestin   20   0  558472  30924  15224 S   0,0  0,4   0:00.15 mintUpdate
+ 2777 prestin   20   0    7220    616    524 S   0,0  0,0   0:00.00 cat
+ 2778 prestin   20   0    7220    620    524 S   0,0  0,0   0:00.00 cat
+ 2780 prestin   20   0    6500    392    308 S   0,0  0,0   0:00.00 chrome-sandbox
+ 2781 prestin   20   0  360112  28456  20548 S   0,0  0,4   0:00.01 chrome
+ 2787 prestin   20   0    6500    392    308 S   0,0  0,0   0:00.00 chrome-sandbox
+ 2788 prestin   20   0   88708   3820   2688 S   0,0  0,0   0:00.00 nacl_helper
+ 2790 prestin   20   0  392896   8756    780 S   0,0  0,1   0:00.09 chrome
+ 2810 prestin   20   0  779476 271004 114584 S   0,0  3,3   1:01.53 chrome
+ 2828 prestin   20   0 1195908 140708  19060 S   0,0  1,7   0:07.02 chrome
+ 2842 prestin   20   0  747324  37796  15972 S   0,0  0,5   0:00.60 chrome
+ 2851 prestin   20   0  743228  32220  16048 S   0,0  0,4   0:00.13 chrome
+ 2871 prestin   20   0  753468  40712  15976 S   0,0  0,5   0:00.98 chrome
+ 2878 prestin   20   0  751124  38432  17728 S   0,0  0,5   0:07.04 chrome
+ 2893 prestin   20   0  751124  42512  18292 S   0,0  0,5   0:00.38 chrome
+ 2903 prestin   20   0  747324  42256  16436 S   0,0  0,5   0:11.33 chrome
+ 2921 prestin   20   0  812396 103608  17428 S   0,0  1,3   0:37.39 chrome
+ 2927 prestin   20   0  772628  94028  18388 S   0,0  1,2   0:55.79 chrome
+ 2935 prestin   20   0  754196  46936  18064 S   0,0  0,6   0:01.56 chrome
+ 2939 prestin   20   0  745276  32856  15524 S   0,0  0,4   0:00.12 chrome
+ 2946 prestin   20   0  746300  36276  16592 S   0,0  0,4   0:03.39 chrome
+ 2953 prestin   20   0  750236  42720  17968 S   0,0  0,5   0:00.98 chrome
+ 3137 prestin   20   0   23100   4412   1872 S   0,0  0,1   0:00.01 bash
+ 3143 prestin   20   0 1494224  89288  22416 S   0,0  1,1   0:16.70 variety
+ 3144 prestin   20   0  381236  10072   7132 S   0,0  0,1   0:00.08 cinnamon-screen
+ 3248 prestin   20   0  247288  16228   7108 S   0,0  0,2   0:00.09 applet.py
+ 3360 prestin   20   0  616608  25512  13104 S   0,0  0,3   0:25.02 gnome-terminal
+ 3364 prestin   20   0   14824    836    676 S   0,0  0,0   0:00.00 gnome-pty-helpe
+ 3365 prestin   20   0   23872   5084   1784 S   0,0  0,1   0:00.09 bash
+ 3423 prestin   20   0 1088144  46344  19220 S   0,0  0,6   1:21.40 Telegram
+ 4126 prestin   20   0 1016964 322432  34304 S   0,0  4,0   0:29.98 chrome
+ 5101 root      20   0       0      0      0 Z   0,0  0,0   0:00.41 nemo
+ 5111 root      20   0   24440    584    336 S   0,0  0,0   0:00.00 dbus-launch
+ 5112 root      20   0   39116   1160    808 S   0,0  0,0   0:00.03 dbus-daemon
+ 5122 root      20   0  178176   2616   2176 S   0,0  0,0   0:00.01 dconf-service
+ 5427 root      20   0       0      0      0 Z   0,0  0,0   0:01.79 nemo
+ 5521 root      20   0   53180   2844   2072 S   0,0  0,0   0:00.03 gconfd-2
+ 6008 root      20   0       0      0      0 Z   0,0  0,0   0:00.26 nemo
+ 6169 prestin   20   0  460324  11300   6992 S   0,0  0,1   0:00.05 gvfsd-recent
+ 6829 prestin   20   0   23108   4428   1880 S   0,0  0,1   0:00.03 bash
+ 8856 root      20   0       0      0      0 Z   0,0  0,0   0:00.46 nemo
+10160 prestin   20   0  860844 107340  25196 S   0,0  1,3   0:01.72 chrome
+11180 prestin   20   0  961776  62884  21316 S   0,0  0,8   0:30.54 sublime_text
+11720 prestin   20   0  186716  12308   2888 S   0,0  0,2   0:00.41 plugin_host
+12556 prestin   20   0  864944 114724  25908 S   0,0  1,4   0:03.66 chrome
+14091 root      20   0   89560   2616   1936 S   0,0  0,0   0:00.00 sudo
+14093 root      20   0   12420   1364   1144 S   0,0  0,0   0:00.00 bash
+14097 root      20   0   24960   1476   1056 R   0,0  0,0   0:00.00 top
+15680 root      20   0       0      0      0 Z   0,0  0,0   0:01.63 nemo
+17025 prestin   20   0  913484 179676  26196 S   0,0  2,2   0:04.57 chrome
+17545 root      20   0   89832   2852   2024 S   0,0  0,0   0:00.00 sudo
+17704 root       0 -20       0      0      0 S   0,0  0,0   0:00.03 kworker/u9:1
+18711 root      20   0       0      0      0 Z   0,0  0,0   0:02.10 nemo
+18817 prestin   20   0  722428  28864   9912 S   0,0  0,4   0:01.53 chrome
+18930 root      20   0       0      0      0 Z   0,0  0,0   0:00.68 nemo
+19073 root      20   0   89832   2852   2024 S   0,0  0,0   0:00.00 sudo
+20150 root      20   0   89832   2852   2024 T   0,0  0,0   0:00.00 sudo
+20277 prestin   20   0  846508 114696  28420 S   0,0  1,4   0:02.70 chrome
+21753 root      20   0       0      0      0 Z   0,0  0,0   0:00.27 nemo
+24306 root      20   0   12416   1192    992 T   0,0  0,0   0:00.00 bash
+24308 root      20   0   24956   1708   1156 T   0,0  0,0   0:00.02 top
+24886 root      20   0   12500   1564   1260 S   0,0  0,0   0:00.00 bash
+26090 prestin   20   0  795316  68344  24204 S   0,0  0,8   0:02.21 chrome
+32254 prestin   20   0  292480   4760   3852 S   0,0  0,1   0:00.00 gvfsd-http
+prestin-dt
+    description: Desktop Computer
+    product: MS-7821 (To be filled by O.E.M.)
+    vendor: MSI
+    version: 1.0
+    serial: To be filled by O.E.M.
+    width: 64 bits
+    capabilities: smbios-2.8 dmi-2.7 ldt16 vsyscall32
+    configuration: administrator_password=disabled boot=normal chassis=desktop family=To be filled by O.E.M. frontpanel_password=disabled keyboard_password=disabled power-on_password=disabled sku=To be filled by O.E.M. uuid=00000000-0000-0000-0000-448A5B2B8F4D
+  *-core
+       description: Motherboard
+       product: Z87-G45 GAMING (MS-7821)
+       vendor: MSI
+       physical id: 0
+       version: 1.0
+       serial: To be filled by O.E.M.
+       slot: To be filled by O.E.M.
+     *-firmware
+          description: BIOS
+          vendor: American Megatrends Inc.
+          physical id: 0
+          version: V1.7
+          date: 02/20/2014
+          size: 64KiB
+          capacity: 8128KiB
+          capabilities: pci upgrade shadowing cdboot bootselect socketedrom edd int13floppy1200 int13floppy720 int13floppy2880 int5printscreen int9keyboard int14serial int17printer acpi usb biosbootspecification uefi
+     *-cpu
+          description: CPU
+          product: Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz
+          vendor: Intel Corp.
+          physical id: 3d
+          bus info: cpu@0
+          version: Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz
+          slot: SOCKET 0
+          size: 3400MHz
+          capacity: 3800MHz
+          width: 64 bits
+          clock: 100MHz
+          capabilities: x86-64 fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm ida arat xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid
+          configuration: cores=4 enabledcores=4 threads=4
+        *-cache:0
+             description: L2 cache
+             physical id: 3e
+             slot: CPU Internal L2
+             size: 1MiB
+             capacity: 1MiB
+             capabilities: internal write-back unified
+        *-cache:1
+             description: L1 cache
+             physical id: 3f
+             slot: CPU Internal L1
+             size: 256KiB
+             capacity: 256KiB
+             capabilities: internal write-back
+        *-cache:2
+             description: L3 cache
+             physical id: 40
+             slot: CPU Internal L3
+             size: 6MiB
+             capacity: 6MiB
+             capabilities: internal write-back unified
+     *-memory
+          description: System Memory
+          physical id: 41
+          slot: System board or motherboard
+          size: 8GiB
+        *-bank:0
+             description: DIMM [empty]
+             product: [Empty]
+             vendor: [Empty]
+             physical id: 0
+             serial: [Empty]
+             slot: ChannelA-DIMM0
+        *-bank:1
+             description: DIMM DDR3 Synchronous 1600 MHz (0,6 ns)
+             product: KHX1600C9D3/4GX
+             vendor: Kingston
+             physical id: 1
+             serial: 7638F6FD
+             slot: ChannelA-DIMM1
+             size: 4GiB
+             width: 64 bits
+             clock: 1600MHz (0.6ns)
+        *-bank:2
+             description: DIMM [empty]
+             product: [Empty]
+             vendor: [Empty]
+             physical id: 2
+             serial: [Empty]
+             slot: ChannelB-DIMM0
+        *-bank:3
+             description: DIMM DDR3 Synchronous 1600 MHz (0,6 ns)
+             product: KHX1600C9D3/4GX
+             vendor: Kingston
+             physical id: 3
+             serial: 7138E2FD
+             slot: ChannelB-DIMM1
+             size: 4GiB
+             width: 64 bits
+             clock: 1600MHz (0.6ns)
+     *-pci
+          description: Host bridge
+          product: 4th Gen Core Processor DRAM Controller
+          vendor: Intel Corporation
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 06
+          width: 32 bits
+          clock: 33MHz
+        *-pci:0
+             description: PCI bridge
+             product: Xeon E3-1200 v3/4th Gen Core Processor PCI Express x16 Controller
+             vendor: Intel Corporation
+             physical id: 1
+             bus info: pci@0000:00:01.0
+             version: 06
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm msi pciexpress normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:40 ioport:e000(size=4096) memory:f7e00000-f7efffff ioport:e0000000(size=268435456)
+           *-display
+                description: VGA compatible controller
+                product: Tahiti XT [Radeon HD 7970/8970 OEM / R9 280X]
+                vendor: Advanced Micro Devices, Inc. [AMD/ATI]
+                physical id: 0
+                bus info: pci@0000:01:00.0
+                version: 00
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm pciexpress msi vga_controller bus_master cap_list rom
+                configuration: driver=fglrx_pci latency=0
+                resources: irq:47 memory:e0000000-efffffff memory:f7e00000-f7e3ffff ioport:e000(size=256) memory:f7e40000-f7e5ffff
+           *-multimedia
+                description: Audio device
+                product: Tahiti XT HDMI Audio [Radeon HD 7970 Series]
+                vendor: Advanced Micro Devices, Inc. [AMD/ATI]
+                physical id: 0.1
+                bus info: pci@0000:01:00.1
+                version: 00
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm pciexpress msi bus_master cap_list
+                configuration: driver=snd_hda_intel latency=0
+                resources: irq:45 memory:f7e60000-f7e63fff
+        *-usb:0
+             description: USB controller
+             product: 8 Series/C220 Series Chipset Family USB xHCI
+             vendor: Intel Corporation
+             physical id: 14
+             bus info: pci@0000:00:14.0
+             version: 05
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi xhci bus_master cap_list
+             configuration: driver=xhci_hcd latency=0
+             resources: irq:41 memory:f7f00000-f7f0ffff
+        *-communication
+             description: Communication controller
+             product: 8 Series/C220 Series Chipset Family MEI Controller #1
+             vendor: Intel Corporation
+             physical id: 16
+             bus info: pci@0000:00:16.0
+             version: 04
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi bus_master cap_list
+             configuration: driver=mei_me latency=0
+             resources: irq:43 memory:f7f1a000-f7f1a00f
+        *-usb:1
+             description: USB controller
+             product: 8 Series/C220 Series Chipset Family USB EHCI #2
+             vendor: Intel Corporation
+             physical id: 1a
+             bus info: pci@0000:00:1a.0
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pm debug ehci bus_master cap_list
+             configuration: driver=ehci-pci latency=0
+             resources: irq:16 memory:f7f18000-f7f183ff
+        *-multimedia
+             description: Audio device
+             product: 8 Series/C220 Series Chipset High Definition Audio Controller
+             vendor: Intel Corporation
+             physical id: 1b
+             bus info: pci@0000:00:1b.0
+             version: 05
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi pciexpress bus_master cap_list
+             configuration: driver=snd_hda_intel latency=0
+             resources: irq:44 memory:f7f10000-f7f13fff
+        *-pci:1
+             description: PCI bridge
+             product: 8 Series/C220 Series Chipset Family PCI Express Root Port #1
+             vendor: Intel Corporation
+             physical id: 1c
+             bus info: pci@0000:00:1c.0
+             version: d5
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:16
+        *-pci:2
+             description: PCI bridge
+             product: 8 Series/C220 Series Chipset Family PCI Express Root Port #4
+             vendor: Intel Corporation
+             physical id: 1c.3
+             bus info: pci@0000:00:1c.3
+             version: d5
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:19 ioport:d000(size=4096) memory:f7d00000-f7dfffff
+           *-network
+                description: Ethernet interface
+                product: Killer E2200 Gigabit Ethernet Controller
+                vendor: Qualcomm Atheros
+                physical id: 0
+                bus info: pci@0000:03:00.0
+                logical name: eth0
+                version: 13
+                serial: 44:8a:5b:2b:8f:4d
+                size: 1Gbit/s
+                capacity: 1Gbit/s
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm pciexpress msi msix bus_master cap_list ethernet physical tp 10bt 10bt-fd 100bt 100bt-fd 1000bt-fd autonegotiation
+                configuration: autonegotiation=on broadcast=yes driver=alx duplex=full ip=192.168.178.150 latency=0 link=yes multicast=yes port=twisted pair speed=1Gbit/s
+                resources: irq:46 memory:f7d00000-f7d3ffff ioport:d000(size=128)
+        *-usb:2
+             description: USB controller
+             product: 8 Series/C220 Series Chipset Family USB EHCI #1
+             vendor: Intel Corporation
+             physical id: 1d
+             bus info: pci@0000:00:1d.0
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pm debug ehci bus_master cap_list
+             configuration: driver=ehci-pci latency=0
+             resources: irq:23 memory:f7f17000-f7f173ff
+        *-isa
+             description: ISA bridge
+             product: Z87 Express LPC Controller
+             vendor: Intel Corporation
+             physical id: 1f
+             bus info: pci@0000:00:1f.0
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: isa bus_master cap_list
+             configuration: driver=lpc_ich latency=0
+             resources: irq:0
+        *-storage
+             description: SATA controller
+             product: 8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode]
+             vendor: Intel Corporation
+             physical id: 1f.2
+             bus info: pci@0000:00:1f.2
+             version: 05
+             width: 32 bits
+             clock: 66MHz
+             capabilities: storage msi pm ahci_1.0 bus_master cap_list
+             configuration: driver=ahci latency=0
+             resources: irq:42 ioport:f070(size=8) ioport:f060(size=4) ioport:f050(size=8) ioport:f040(size=4) ioport:f020(size=32) memory:f7f16000-f7f167ff
+        *-serial UNCLAIMED
+             description: SMBus
+             product: 8 Series/C220 Series Chipset Family SMBus Controller
+             vendor: Intel Corporation
+             physical id: 1f.3
+             bus info: pci@0000:00:1f.3
+             version: 05
+             width: 64 bits
+             clock: 33MHz
+             configuration: latency=0
+             resources: memory:f7f15000-f7f150ff ioport:f000(size=32)
+     *-scsi:0
+          physical id: 1
+          logical name: scsi0
+          capabilities: emulated
+        *-disk
+             description: ATA Disk
+             product: KINGSTON SV300S3
+             physical id: 0.0.0
+             bus info: scsi@0:0.0.0
+             logical name: /dev/sda
+             version: 506A
+             serial: 50026B733500CA12
+             size: 111GiB (120GB)
+             capabilities: partitioned partitioned:dos
+             configuration: ansiversion=5 sectorsize=512 signature=b079a069
+           *-volume:0
+                description: Windows NTFS volume
+                physical id: 1
+                bus info: scsi@0:0.0.0,1
+                logical name: /dev/sda1
+                version: 3.1
+                serial: fcadd654-b129-124f-8a5a-74e1bdd289b7
+                size: 348MiB
+                capacity: 350MiB
+                capabilities: primary bootable ntfs initialized
+                configuration: clustersize=4096 created=2013-11-01 23:46:49 filesystem=ntfs label=System Reserved modified_by_chkdsk=true mounted_on_nt4=true resize_log_file=true state=dirty upgrade_on_mount=true
+           *-volume:1
+                description: Windows NTFS volume
+                physical id: 2
+                bus info: scsi@0:0.0.0,2
+                logical name: /dev/sda2
+                version: 3.1
+                serial: dec78b36-6c02-5a4d-8208-03f80c88d52c
+                size: 111GiB
+                capacity: 111GiB
+                capabilities: primary ntfs initialized
+                configuration: clustersize=4096 created=2013-11-01 23:47:53 filesystem=ntfs state=clean
+     *-scsi:1
+          physical id: 2
+          logical name: scsi1
+          capabilities: emulated
+        *-disk
+             description: ATA Disk
+             product: Samsung SSD 840
+             physical id: 0.0.0
+             bus info: scsi@1:0.0.0
+             logical name: /dev/sdb
+             version: EXT0
+             serial: S1DBNSBF371620N
+             size: 232GiB (250GB)
+             capabilities: partitioned partitioned:dos
+             configuration: ansiversion=5 sectorsize=512 signature=d997ae64
+           *-volume:0
+                description: EXT4 volume
+                vendor: Linux
+                physical id: 1
+                bus info: scsi@1:0.0.0,1
+                logical name: /dev/sdb1
+                logical name: /
+                version: 1.0
+                serial: dd4fe943-a743-4d44-88c0-60bd31587c3e
+                size: 229GiB
+                capacity: 229GiB
+                capabilities: primary journaled extended_attributes large_files huge_files dir_nlink extents ext4 ext2 initialized
+                configuration: created=2014-09-17 14:19:10 filesystem=ext4 lastmountpoint=/ modified=2014-12-15 11:08:27 mount.fstype=ext4 mount.options=rw,relatime,errors=remount-ro,data=ordered mounted=2014-12-15 11:08:27 state=mounted
+           *-volume:1
+                description: Extended partition
+                physical id: 2
+                bus info: scsi@1:0.0.0,2
+                logical name: /dev/sdb2
+                size: 3870MiB
+                capacity: 3870MiB
+                capabilities: primary extended partitioned partitioned:extended
+              *-logicalvolume
+                   description: Linux swap / Solaris partition
+                   physical id: 5
+                   logical name: /dev/sdb5
+                   capacity: 3870MiB
+                   capabilities: nofs
+     *-scsi:2
+          physical id: 3
+          logical name: scsi2
+          capabilities: emulated
+        *-disk
+             description: ATA Disk
+             product: WDC WD10EADS-22M
+             vendor: Western Digital
+             physical id: 0.0.0
+             bus info: scsi@2:0.0.0
+             logical name: /dev/sdc
+             version: 01.0
+             serial: WD-WCAV58711001
+             size: 931GiB (1TB)
+             capabilities: partitioned partitioned:dos
+             configuration: ansiversion=5 sectorsize=512 signature=86719baf
+           *-volume
+                description: Windows NTFS volume
+                physical id: 1
+                bus info: scsi@2:0.0.0,1
+                logical name: /dev/sdc1
+                version: 3.1
+                serial: a0e8cf0f-da7d-7b44-ba48-a7b41374f0b5
+                size: 931GiB
+                capacity: 931GiB
+                capabilities: primary ntfs initialized
+                configuration: clustersize=4096 created=2014-10-15 00:07:01 filesystem=ntfs state=clean
+  *-power UNCLAIMED
+       description: To Be Filled By O.E.M.
+       product: To Be Filled By O.E.M.
+       vendor: To Be Filled By O.E.M.
+       physical id: 1
+       version: To Be Filled By O.E.M.
+       serial: To Be Filled By O.E.M.
+       capacity: 32768mWh
+00:00.0 Host bridge: Intel Corporation 4th Gen Core Processor DRAM Controller (rev 06)
+00:01.0 PCI bridge: Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor PCI Express x16 Controller (rev 06)
+00:14.0 USB controller: Intel Corporation 8 Series/C220 Series Chipset Family USB xHCI (rev 05)
+00:16.0 Communication controller: Intel Corporation 8 Series/C220 Series Chipset Family MEI Controller #1 (rev 04)
+00:1a.0 USB controller: Intel Corporation 8 Series/C220 Series Chipset Family USB EHCI #2 (rev 05)
+00:1b.0 Audio device: Intel Corporation 8 Series/C220 Series Chipset High Definition Audio Controller (rev 05)
+00:1c.0 PCI bridge: Intel Corporation 8 Series/C220 Series Chipset Family PCI Express Root Port #1 (rev d5)
+00:1c.3 PCI bridge: Intel Corporation 8 Series/C220 Series Chipset Family PCI Express Root Port #4 (rev d5)
+00:1d.0 USB controller: Intel Corporation 8 Series/C220 Series Chipset Family USB EHCI #1 (rev 05)
+00:1f.0 ISA bridge: Intel Corporation Z87 Express LPC Controller (rev 05)
+00:1f.2 SATA controller: Intel Corporation 8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode] (rev 05)
+00:1f.3 SMBus: Intel Corporation 8 Series/C220 Series Chipset Family SMBus Controller (rev 05)
+01:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Tahiti XT [Radeon HD 7970/8970 OEM / R9 280X]
+01:00.1 Audio device: Advanced Micro Devices, Inc. [AMD/ATI] Tahiti XT HDMI Audio [Radeon HD 7970 Series]
+03:00.0 Ethernet controller: Qualcomm Atheros Killer E2200 Gigabit Ethernet Controller (rev 13)
+Bus 002 Device 002: ID 8087:8000 Intel Corp. 
+Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 002: ID 8087:8008 Intel Corp. 
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 004: ID 045e:0291 Microsoft Corp. Xbox 360 Wireless Receiver for Windows
+Bus 003 Device 003: ID 1532:011a Razer USA, Ltd 
+Bus 003 Device 002: ID 1532:0037 Razer USA, Ltd 
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 111,8G  0 disk 
+├─sda1   8:1    0   350M  0 part 
+└─sda2   8:2    0 111,5G  0 part 
+sdb      8:16   0 232,9G  0 disk 
+├─sdb1   8:17   0 229,1G  0 part /
+├─sdb2   8:18   0     1K  0 part 
+└─sdb5   8:21   0   3,8G  0 part [SWAP]
+sdc      8:32   0 931,5G  0 disk 
+└─sdc1   8:33   0 931,5G  0 part 
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       243G  147G   84G  64% /
+none            4,1k     0  4,1k   0% /sys/fs/cgroup
+udev            4,2G   13k  4,2G   1% /dev
+tmpfs           832M  1,6M  830M   1% /run
+none            5,3M     0  5,3M   0% /run/lock
+none            4,2G   31M  4,2G   1% /run/shm
+none            105M   33k  105M   1% /run/user
+
+Disk /dev/sda: 120.0 GB, 120034123776 bytes
+255 heads, 63 sectors/track, 14593 cylinders, total 234441648 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0xb079a069
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sda1   *        2048      718847      358400    7  HPFS/NTFS/exFAT
+/dev/sda2          718848   234438655   116859904    7  HPFS/NTFS/exFAT
+
+Disk /dev/sdb: 250.1 GB, 250059350016 bytes
+255 heads, 63 sectors/track, 30401 cylinders, total 488397168 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0xd997ae64
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sdb1            2048   480468991   240233472   83  Linux
+/dev/sdb2       480471038   488396799     3962881    5  Extended
+/dev/sdb5       480471040   488396799     3962880   82  Linux swap / Solaris
+
+Disk /dev/sdc: 1000.2 GB, 1000204886016 bytes
+255 heads, 63 sectors/track, 121601 cylinders, total 1953525168 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x86719baf
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sdc1            2048  1953523711   976760832    7  HPFS/NTFS/exFAT
+/dev/sdb1       on  /                         type  ext4                 (rw,errors=remount-ro)
+proc            on  /proc                     type  proc                 (rw,noexec,nosuid,nodev)
+sysfs           on  /sys                      type  sysfs                (rw,noexec,nosuid,nodev)
+none            on  /sys/fs/cgroup            type  tmpfs                (rw)
+none            on  /sys/fs/fuse/connections  type  fusectl              (rw)
+none            on  /sys/kernel/debug         type  debugfs              (rw)
+none            on  /sys/kernel/security      type  securityfs           (rw)
+udev            on  /dev                      type  devtmpfs             (rw,mode=0755)
+devpts          on  /dev/pts                  type  devpts               (rw,noexec,nosuid,gid=5,mode=0620)
+tmpfs           on  /run                      type  tmpfs                (rw,noexec,nosuid,size=10%,mode=0755)
+none            on  /run/lock                 type  tmpfs                (rw,noexec,nosuid,nodev,size=5242880)
+none            on  /run/shm                  type  tmpfs                (rw,nosuid,nodev)
+none            on  /run/user                 type  tmpfs                (rw,noexec,nosuid,nodev,size=104857600,mode=0755)
+none            on  /sys/fs/pstore            type  pstore               (rw)
+binfmt_misc     on  /proc/sys/fs/binfmt_misc  type  binfmt_misc          (rw,noexec,nosuid,nodev)
+systemd         on  /sys/fs/cgroup/systemd    type  cgroup               (rw,noexec,nosuid,nodev,none,name=systemd)
+gvfsd-fuse      on  /run/user/1000/gvfs       type  fuse.gvfsd-fuse      (rw,nosuid,nodev,user=prestin)
+vmware-vmblock  on  /run/vmblock-fuse         type  fuse.vmware-vmblock  (rw,nosuid,nodev,default_permissions,allow_other)
