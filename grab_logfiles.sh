@@ -19,16 +19,16 @@ chmod 777 -R $SAVE_DIR
 
 #Log files in de /var/log
 for x in *.log.*
-	do cp $x $SAVE_DIR 2> error.txt
+	do cp $x $SAVE_DIR > error.txt 2>&1
 		done
 for x in *.log*
-	do cp $x $SAVE_DIR 2> error.txt
+	do cp $x $SAVE_DIR > error.txt 2>&1
 		done
 for x in *log.*
-	do cp $x $SAVE_DIR 2> error.txt
+	do cp $x $SAVE_DIR > error.txt 2>&1
 		done
 for x in *_log
-	do cp $x $SAVE_DIR 2> error.txt
+	do cp $x $SAVE_DIR > error.txt 2>&1
 		done  
 
 #Log files binnen de mappen van /log/var/~
@@ -41,10 +41,10 @@ for i in ${ARRAY[*]}; do
     cd $i
     if [ "$?" = "0" ]; then
 	   for x in *.log.*	
-		do cp $x $SAVE_DIR 2> error.txt
+		do cp $x $SAVE_DIR > error.txt 2>&1
 		done
 		for x in *_log
-		do cp $x $SAVE_DIR 2> error.txt
+		do cp $x $SAVE_DIR > error.txt 2>&1
 		done   
 	else
 		echo "cd mislukt"
@@ -56,7 +56,7 @@ done
 echo "Verzameling compleet!"
 echo "Geef de locatie aan voor de tar"
 
-tar -cf $TAR_DIR $SAVE_DIR 2> error.txt
+tar -cf $TAR_DIR $SAVE_DIR > error.txt 2>&1
 
 echo -e "${green}Script gelukt"
 
