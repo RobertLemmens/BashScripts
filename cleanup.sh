@@ -29,7 +29,7 @@ if cd $SAVED_DIR; then
       mv ${ARRAY[$i-1]} .bingo
   done
   tar -cvf bingo.tar .bingo
-  if ["$?" = "0"]; then
+  if [ "$?" = "0" ]; then
     echo -e "${green}Archive made${NC}"
   else
     echo -e "${red}Error tijdens maken van archive${NC}" 1>&2
