@@ -47,7 +47,7 @@ if [ "$USER_CHOICE" = "1" ]; then
   elif [ "$USER_IN2" = "2" ]; then
     bash grab_sysinfo.sh $SAVE_DIR
   elif [ "$USER_IN2" = "3" ]; then
-    bash grab_logfiles.sh $SAVE_DIR $TAR_DIR
+    bash grab_logfiles.sh $SAVE_DIR $TAR_DIR/logs.tar
   fi
   echo "press enter to go back to the main menu"
   read HALT
